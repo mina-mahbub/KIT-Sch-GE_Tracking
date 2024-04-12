@@ -43,6 +43,8 @@ Save tracking results for a given set of hyperparameters as HPx_TRA
 To generate tracking results, run:  
 
 cd /home/MinaHossain/DMNet_Rina_Tracking/2021-cell-tracking  
+conda activate venv_graph_tracking_kit_sch_ge_2021 
+
 `python -m run_tracking --image_path IMAGE_PATH --segmentation_path SEGMENTATION_PATH --results_path RESULTS_PATH`  
 For example: 
 python -m run_tracking --image_path /home/MinaHossain/DMNet_Rina_Tracking/6row_images/02 --segmentation_path /home/MinaHossain/DMNet_Rina_Tracking/data/06_RES-GT --results_path /home/MinaHossain/DMNet_Rina_Tracking/6row_images/HP1_TRA
@@ -87,9 +89,23 @@ Hyperparameters:
 * Everything else default
 
 Metrics:  
-* Pre-Tracking  SEG: 
-* Post-Tracking SEG: 
-* Post-Tracking TRA: 
+* Pre-Tracking  SEG: 0.190449
+* Post-Tracking SEG: 0.190702
+* Post-Tracking TRA: 0.338809
 
 Notes:  
 
+
+
+## HP2
+
+Hyperparameters:  
+* Scale = .4
+* Everything else default
+
+Metrics:  
+* Pre-Tracking  SEG: 0.149996
+* Post-Tracking SEG: 0.157061
+* Post-Tracking TRA: 0.177376
+
+Notes:
