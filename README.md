@@ -23,7 +23,8 @@ cd /home/MinaHossain/EvaluationSoftware/Linux
 `./SEGMeasure dir seq num_digist`  
 For example:
 ./SEGMeasure /home/MinaHossain/DMNet_Rina_Tracking/6row_images 02 4
-
+cd /home/MinaHossain/DMNet_Rina_Tracking  
+python center_score.py /home/MinaHossain/DMNet_Rina_Tracking/6row_images 02 4  
 
 
 
@@ -58,7 +59,21 @@ cp -rp /home/MinaHossain/DMNet_Rina_Tracking/6row_images/HP1_TRA /home/MinaHossa
 cd /home/MinaHossain/EvaluationSoftware/Linux  
 ./SEGMeasure /home/MinaHossain/DMNet_Rina_Tracking/6row_images 02 4  
 ./TRAMeasure /home/MinaHossain/DMNet_Rina_Tracking/6row_images 02 4  
+cd /home/MinaHossain/DMNet_Rina_Tracking  
+python center_score.py /home/MinaHossain/DMNet_Rina_Tracking/6row_images 02 4  
 
+
+
+
+
+# Get averaged center distance score
+
+Pretty much the same process as before
+
+python center_score.py /home/MinaHossain/DMNet_Rina_Tracking/6row_images 02 4
+
+rm -rf /home/MinaHossain/DMNet_Rina_Tracking/6row_images/02_RES   
+cp -rp /home/MinaHossain/DMNet_Rina_Tracking/6row_images/HP1_TRA /home/MinaHossain/DMNet_Rina_Tracking/6row_images/02_RES  
 
 
 
@@ -72,7 +87,7 @@ This is where we give descriptions for each different set of hyperparameters we 
 ## HP1
 
 Hyperparameters:  
-* Scale = .6
+* Scale = 0.6
 * Everything else default
 
 Metrics:  
@@ -85,7 +100,7 @@ Notes:
 ## HP2
 
 Hyperparameters:  
-* Scale = .8
+* Scale = 0.8
 * Everything else default
 
 Metrics:  
@@ -97,15 +112,45 @@ Notes:
 
 
 
-## HP2
+## HP3
 
 Hyperparameters:  
-* Scale = .4
+* Scale = 0.4
 * Everything else default
 
 Metrics:  
 * Pre-Tracking  SEG: 0.149996
 * Post-Tracking SEG: 0.157061
 * Post-Tracking TRA: 0.177376
+
+Notes:
+
+
+
+## HP4
+
+Hyperparameters:  
+* Scale = 1.0
+* Everything else default
+
+Metrics:  
+* Pre-Tracking  SEG: 0.211015
+* Post-Tracking SEG: 0.204772
+* Post-Tracking TRA: 0.197051
+
+Notes:
+
+
+
+## HP5
+
+Hyperparameters:  
+* Scale = 0.7
+* Everything else default
+
+Metrics:  
+* Pre-Tracking  SEG: 
+* Post-Tracking SEG: 
+* Post-Tracking TRA: 
 
 Notes:
