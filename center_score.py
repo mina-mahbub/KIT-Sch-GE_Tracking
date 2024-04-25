@@ -77,3 +77,4 @@ if __name__ == "__main__":
     gt_folder = os.path.join(args.root_folder, f"{args.number}_GT", "SEG")
     pred_folder = os.path.join(args.root_folder, f"{args.number}_RES")
     main(gt_folder, pred_folder, args.num_digits, args.processes)
+

@@ -20,9 +20,12 @@ cp -rp /home/MinaHossain/DMNet_Rina_Tracking/6row_images/HP1_PRETRA /home/MinaHo
 Get the metrics:  
 
 cd /home/MinaHossain/EvaluationSoftware/Linux  
-`./SEGMeasure dir seq num_digist`  
+ 
 For example:
 ./SEGMeasure /home/MinaHossain/DMNet_Rina_Tracking/6row_images 02 4
+
+
+# Get averaged center distance score
 cd /home/MinaHossain/DMNet_Rina_Tracking  
 python center_score.py /home/MinaHossain/DMNet_Rina_Tracking/6row_images 02 4  
 
@@ -59,6 +62,7 @@ cp -rp /home/MinaHossain/DMNet_Rina_Tracking/6row_images/HP1_TRA /home/MinaHossa
 cd /home/MinaHossain/EvaluationSoftware/Linux  
 ./SEGMeasure /home/MinaHossain/DMNet_Rina_Tracking/6row_images 02 4  
 ./TRAMeasure /home/MinaHossain/DMNet_Rina_Tracking/6row_images 02 4  
+
 cd /home/MinaHossain/DMNet_Rina_Tracking  
 python center_score.py /home/MinaHossain/DMNet_Rina_Tracking/6row_images 02 4  
 
@@ -69,6 +73,7 @@ python center_score.py /home/MinaHossain/DMNet_Rina_Tracking/6row_images 02 4
 # Get averaged center distance score
 
 Pretty much the same process as before
+cd /home/MinaHossain/DMNet_Rina_Tracking 
 
 python center_score.py /home/MinaHossain/DMNet_Rina_Tracking/6row_images 02 4
 
@@ -146,6 +151,26 @@ Notes:
 
 Hyperparameters:  
 * Scale = 0.7
+* Everything else default
+
+Metrics:  
+* Pre-Tracking  SEG:  0.039549
+                Average Distance Score: 288.947484
+                Average Count Difference: -25.658768
+
+* Post-Tracking SEG:  0.045106
+* Post-Tracking TRA:  0.325688
+                Average Score: 280.427629
+                Average Count Difference: -24.246445
+
+Notes:
+
+
+
+## HP5
+
+Hyperparameters:  
+* Scale = 0.5
 * Everything else default
 
 Metrics:  
