@@ -96,11 +96,18 @@ Hyperparameters:
 * Everything else default
 
 Metrics:  
-* Pre-Tracking  SEG: 0.285091
-* Post-Tracking SEG: 0.293515
-* Post-Tracking TRA: 0.473306
+* Pre-Tracking  SEG:  0.285091
+                Average Distance Score: 126.202320
+                Average Count Difference: 4.957346 
+
+* Post-Tracking SEG:  0.293515
+* Post-Tracking TRA:  0.473306
+                Average Score: 126.067462
+                Average Count Difference: 6.398104
 
 Notes:  
+
+
 
 ## HP2
 
@@ -109,12 +116,18 @@ Hyperparameters:
 * Everything else default
 
 Metrics:  
-* Pre-Tracking  SEG: 0.190449
-* Post-Tracking SEG: 0.190702
-* Post-Tracking TRA: 0.338809
+* Pre-Tracking  SEG:  0.190449
+                Average Distance Score: 128.775603
+                Average Count Difference: 2.620853
+
+* Post-Tracking SEG:  0.190702
+* Post-Tracking TRA:  0.338809
+                Average Distance Score: 130.219933
+                Average Count Difference: 4.004739
+
+
 
 Notes:  
-
 
 
 ## HP3
@@ -124,12 +137,17 @@ Hyperparameters:
 * Everything else default
 
 Metrics:  
-* Pre-Tracking  SEG: 0.149996
-* Post-Tracking SEG: 0.157061
-* Post-Tracking TRA: 0.177376
+* Pre-Tracking  SEG:  0.149996
+                Average Distance Score: 239.335159
+                Average Count Difference: 22.763033
+
+* Post-Tracking SEG:  0.157061
+* Post-Tracking TRA:  0.177376
+                Average Score: 238.460585
+                Average Count Difference: 27.004739
+
 
 Notes:
-
 
 
 ## HP4
@@ -139,9 +157,14 @@ Hyperparameters:
 * Everything else default
 
 Metrics:  
-* Pre-Tracking  SEG: 0.211015
-* Post-Tracking SEG: 0.204772
-* Post-Tracking TRA: 0.197051
+* Pre-Tracking  SEG:  0.211015
+                Average Distance Score: 214.236262
+                Average Count Difference: 83.720379
+
+* Post-Tracking SEG:  0.204772
+* Post-Tracking TRA:  0.197051
+                Average Score:  214.546096
+                Average Count Difference: 94.075829
 
 Notes:
 
@@ -167,15 +190,19 @@ Notes:
 
 
 
-## HP5
+## HP6
 
 Hyperparameters:  
 * Scale = 0.5
 * Everything else default
 
 Metrics:  
-* Pre-Tracking  SEG: 
-* Post-Tracking SEG: 
-* Post-Tracking TRA: 
+* Pre-Tracking  SEG:  0.171219
+                Average Distance Score: 198.530347
+                Average Count Difference: -5.123223
 
-Notes:
+* Post-Tracking SEG:   0.176423
+* Post-Tracking TRA:   0.333586
+                Average Score: 200.096805
+                Average Count Difference: -2.526066
+
