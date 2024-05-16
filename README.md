@@ -121,7 +121,7 @@ Metrics:
                 Average Count Difference: 2.620853
 
 * Post-Tracking SEG:  0.190702
-* Post-Tracking TRA:  0.338809
+* Post-Tracking TRA:  0.348809
                 Average Distance Score: 130.219933
                 Average Count Difference: 4.004739
 
@@ -206,3 +206,21 @@ Metrics:
                 Average Score: 200.096805
                 Average Count Difference: -2.526066
 
+
+
+
+## HP7
+
+Hyperparameters:  
+* Scale = 0.9
+* Everything else default
+
+Metrics:  
+* Pre-Tracking  SEG:  0.015757
+                Average Distance Score: 277.629905
+                Average Count Difference: -35.540284
+
+* Post-Tracking SEG: 0.018235  
+* Post-Tracking TRA: 0.294437   
+                Average Score:  274.801086
+                Average Count Difference: -35.042654
