@@ -224,3 +224,48 @@ Metrics:
 * Post-Tracking TRA: 0.294437   
                 Average Score:  274.801086
                 Average Count Difference: -35.042654
+
+
+##################################### Hyperparameter Results for New Test Data Set ################# 
+
+This is where we give descriptions for each different set of hyperparameters we tested, and their various metrics.
+
+## HP1_N
+
+Hyperparameters:  
+* Scale = 0.6
+* Everything else default
+
+Metrics:  
+* Pre-Tracking  SEG:  0.375683
+                Average Distance Score:  305.621359
+                Average Count Difference: 19.901408
+
+* Post-Tracking SEG: 0.381504  
+* Post-Tracking TRA: 0.690886  
+                Average Score: 307.858485
+                Average Count Difference: 22.830986
+
+Notes:  New Data set has improved accuracy in terms of Segmentation and Tracking
+
+
+
+## HP2_N
+
+Hyperparameters:  
+* Scale = 0.8
+* Everything else default
+
+Metrics:  
+* Pre-Tracking  SEG:  
+                Average Distance Score:  
+                Average Count Difference: 
+
+* Post-Tracking SEG:   
+* Post-Tracking TRA:   
+                Average Score: 
+                Average Count Difference: 
+
+Notes:  New Data set has improved accuracy in terms of Segmentation and Tracking
+
+
