@@ -257,14 +257,14 @@ Hyperparameters:
 * Everything else default
 
 Metrics:  
-* Pre-Tracking  SEG:  
-                Average Distance Score:  
-                Average Count Difference: 
+* Pre-Tracking  SEG:  0.281744 
+                Average Distance Score:  329.841714
+                Average Count Difference: 65.253521
 
-* Post-Tracking SEG:   
-* Post-Tracking TRA:   
-                Average Score: 
-                Average Count Difference: 
+* Post-Tracking SEG:  0.282195  
+* Post-Tracking TRA:  0.380805 
+                Average Score: 326.305749
+                Average Count Difference: 76.394366 
 
 Notes:  New Data set has improved accuracy in terms of Segmentation and Tracking
 
