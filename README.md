@@ -269,3 +269,99 @@ Metrics:
 Notes:  New Data set has improved accuracy in terms of Segmentation and Tracking
 
 
+
+
+
+
+#####################################                       Hyperparameter Results for New Test Data Set                    ###################### 
+
+
+######   "Cell-Data-P2": [6600, 0.99, 0.50],  # Area threshold, marker threshold, mask threshold 
+
+
+## HP1_N_B(Test data set from newly labelled data)
+
+Hyperparameters:  
+* Scale = 0.6
+* Everything else default
+
+Metrics:  
+* Pre-Tracking  SEG: 0.221587
+                Average Distance Score:  367.884829
+                Average Count Difference: 55.140000
+
+* Post-Tracking SEG: 0.235539 
+* Post-Tracking TRA: 0.271501
+                Average Score:366.757321
+                Average Count Difference: 63.200000
+
+Notes:  New Data set has improved accuracy in terms of Segmentation and Tracking
+
+
+
+
+
+This is where we give descriptions for each different set of hyperparameters we tested, and their various metrics.
+"Cell-Data-P2": [6600, 0.99, 0.99],  # Area threshold, marker threshold, mask threshold 
+
+
+## HP1_N_A(Test data set from Old labelled data)
+
+Hyperparameters:  
+* Scale = 0.6
+* Everything else default
+
+Metrics:  
+* Pre-Tracking  SEG:  0.009511
+                Average Distance Score:  675.829736
+                Average Count Difference: 32.610000
+
+* Post-Tracking SEG: 0.009631  
+* Post-Tracking TRA: 0.000000  
+                Average Score: 675.617132
+                Average Count Difference: 36.210000
+
+Notes:  New Data set has improved accuracy in terms of Segmentation and Tracking
+
+
+
+## HP1_N_B(Test data set from newly labelled data)
+
+Hyperparameters:  
+* Scale = 0.6
+* Everything else default
+
+Metrics:  
+* Pre-Tracking  SEG: 0.093740 
+                Average Distance Score:  334.085236
+                Average Count Difference: 18.320000
+
+* Post-Tracking SEG:0.096998   
+* Post-Tracking TRA: 0.055107 
+                Average Score:324.774894 
+                Average Count Difference: 20.810000
+
+Notes:  New Data set has improved accuracy in terms of Segmentation and Tracking
+
+
+
+
+## HP2_N
+
+Hyperparameters:  
+* Scale = 1.0
+* Everything else default
+
+Metrics:  
+* Pre-Tracking  SEG:  
+                Average Distance Score:  
+                Average Count Difference: 
+
+* Post-Tracking SEG:   
+* Post-Tracking TRA:   
+                Average Score: 
+                Average Count Difference: 
+
+Notes:  New Data set has improved accuracy in terms of Segmentation and Tracking
+
+
