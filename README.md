@@ -346,22 +346,80 @@ Notes:  New Data set has improved accuracy in terms of Segmentation and Tracking
 
 
 
-## HP2_N
+
+
+#####################################                       Hyperparameter Results for New Test Data Set     July 07 - July 15               ###################### 
+
+
+######   "Cell-Data-P2": [6600, 0.99, 0.50],  # Area threshold, marker threshold, mask threshold 
+
+
+## HP1_N_A1(Test data set from newly labelled data)
+
+
 
 Hyperparameters:  
-* Scale = 1.0
-* Everything else default
+* Scale = 0.6
+* Area threshold, marker threshold, mask threshold = [6600, 0.99, 0.50]
+
 
 Metrics:  
-* Pre-Tracking  SEG:  
-                Average Distance Score:  
-                Average Count Difference: 
+* Pre-Tracking  SEG: 0.409140 
+                Average Distance Score:371.018940  
+                Average Count Difference: 52.590000
 
-* Post-Tracking SEG:   
-* Post-Tracking TRA:   
-                Average Score: 
-                Average Count Difference: 
+
+* Post-Tracking SEG: 0.421954 
+* Post-Tracking TRA: 0.524639  
+                Average Score: 381.959826
+                Average Count Difference: 59.000000
 
 Notes:  New Data set has improved accuracy in terms of Segmentation and Tracking
 
 
+## HP1_N_A2(Test data set from newly labelled data)
+
+
+
+Hyperparameters:  
+* Scale = 0.6
+* Area threshold, marker threshold, mask threshold = [6600, 0.99, 0.75]
+
+
+Metrics:  
+* Pre-Tracking  SEG: 0.341717
+                Average Distance Score: 366.403104
+                Average Count Difference: 59.550000
+
+
+* Post-Tracking SEG: 0.353441 
+* Post-Tracking TRA:   0.275393 
+                Average Score: 372.022390
+                Average Count Difference:66.080000
+
+Notes:  New Data set has improved accuracy in terms of Segmentation and Tracking
+
+
+
+
+## HP1_N_A1(Test data set from newly labelled data)
+
+
+
+Hyperparameters:  
+* Scale = 0.6
+* Area threshold, marker threshold, mask threshold = [6600, 0.99, 0.90]
+
+
+Metrics:  
+* Pre-Tracking  SEG: 0.178650 
+                Average Distance Score: 300.758126 
+                Average Count Difference: 21.400000
+
+
+* Post-Tracking SEG: 0.179887 
+* Post-Tracking TRA: 0.127069 
+                Average Score: 309.441619
+                Average Count Difference: 28.770000
+
+Notes:  New Data set has improved accuracy in terms of Segmentation and Tracking
